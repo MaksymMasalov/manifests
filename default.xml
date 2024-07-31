@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="origin"
+            fetch="ssh://git@github.com/MaksymMasalov"
+            review="https://astemoelite.globallogic.com/stage-gerrit/" />
+    <default revision="master"
+             remote="origin"
+             sync-j="4" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/bsw/camera" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/bsw/display/bridge_plugins" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/bsw/display/configs" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/bsw/display/panels" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/drivers/c2c" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/drivers/lcm" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/drivers/cdf_service" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/bsw/tests/fsync_test_app" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/drivers/xcp" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/drivers/xcp/XCPlite" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/drivers/mcu_com" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/drivers/pcie_switch" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/drivers/pcie_switch/switchtec" upstream="master" />
+    <project remote="origin" name="creatingtags" path="astemo_qnx/sw_update/boot_completion" upstream="master" />
+    <project remote="origin" name="creatingtags" path="build" revision="bbcc235e5ff022b90978908f70a0f2721692935e" upstream="master">
+        <linkfile dest="build.sh" src="build.sh" />
+    </project>
+    <project remote="origin" name="creatingtags" path="qcom_qnx/apps/qnx_ap/target/hypervisor/astemo" upstream="master" />
+    <project remote="origin" name="creatingtags" path="qcom_amss" upstream="master" />
+    <project remote="origin" name="creatingtags" path="qcom_qnx" upstream="master" />
+    <project remote="origin" name="creatingtags" path="qnx_sdp" upstream="master" />
+    <project remote="origin" name="creatingtags" path="tools" upstream="master" />
+</manifest>

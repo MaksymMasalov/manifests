@@ -21,7 +21,7 @@
     <project remote="origin" name="creatingtags" path="astemo_qnx/drivers/pcie_switch" upstream="master" />
     <project remote="origin" name="creatingtags" path="astemo_qnx/drivers/pcie_switch/switchtec" upstream="master" />
     <project remote="origin" name="creatingtags" path="astemo_qnx/sw_update/boot_completion" upstream="master" />
-    <project remote="origin" name="creatingtags" path="build" revision="bbcc235e5ff022b90978908f70a0f2721692935e" upstream="master">
+    <project remote="origin" name="creatingtags" path="build" upstream="master">
         <linkfile dest="build.sh" src="build.sh" />
     </project>
     <project remote="origin" name="creatingtags" path="qcom_qnx/apps/qnx_ap/target/hypervisor/astemo" upstream="master" />
